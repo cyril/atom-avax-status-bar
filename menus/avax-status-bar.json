@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle avax-status-bar",
+        "command": "avax-status-bar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "AVAX Status Bar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "avax-status-bar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
